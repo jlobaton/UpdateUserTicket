@@ -70,7 +70,7 @@ Ejemplo de salida en la consola:
 
 ```python
 Bienvenido al Sistema de Actualización de Tickets
-➤ Instancia configurada: SLS-ZERVIZ-5
+➤ Instancia configurada: SLS-TEST-5
 ➤ Formulario a buscar : Solicitud
 ➤ Nombre del campo de usuario : RUT/Cedula
 ➤ ID del campo a actualizar : 360041811351
