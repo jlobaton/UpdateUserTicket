@@ -4,7 +4,7 @@
 ---
 
 ## 🎯 Propósito  
-Automatiza la actualización masiva de tickets en Zendesk, copiando el RUT desde campos de usuario a un campo personalizado específico en tickets de un formulario designado.
+Automatiza la actualización masiva de tickets en Zendesk, copiando el RUT/Cedula desde campos de usuario a un campo personalizado específico en tickets de un formulario designado.
 
 ---
 
@@ -40,7 +40,7 @@ Modificar el archivo setting.py
 ```python
 FORM_NAME = "Nombre del formulario a buscar"
 CUSTOM_FIELD_ID = "Id del Campo a actualizar en el ticket"
-RUT_FIELD_NAME = "Nombre del campo RUT en User Fields"
+RUT_FIELD_NAME = "Nombre del campo RUT/Cedula en User Fields"
 ```
 
 ---
@@ -72,7 +72,7 @@ Ejemplo de salida en la consola:
 Bienvenido al Sistema de Actualización de Tickets
 ➤ Instancia configurada: SLS-ZERVIZ-5
 ➤ Formulario a buscar : Solicitud
-➤ Nombre del campo de usuario : RUT
+➤ Nombre del campo de usuario : RUT/Cedula
 ➤ ID del campo a actualizar : 360041811351
 
 📝 Tickets encontrados: 107

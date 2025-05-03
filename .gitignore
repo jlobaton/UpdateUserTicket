@@ -1,12 +1,12 @@
 # Entornos virtuales
-.venv/
+.venv
 .env
 
 # Archivos de caché de Python
-__pycache__/
-_pycache_/
+__pycache__
+_pycache_
 __init__.py
 
 # Archivos generados
 *.csv
-output/
+output/*

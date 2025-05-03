@@ -12,6 +12,7 @@ from dotenv import load_dotenv  # Solo si usas .env
 from pathlib import Path
 from requests.auth import HTTPBasicAuth
 
+
 # Agregar el directorio raíz al path de Python
 sys.path.append(str(Path(__file__).parent.parent)) 
 
